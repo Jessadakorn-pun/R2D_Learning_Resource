@@ -23,10 +23,12 @@ git status
 # remove file from staging area
 git rm --cached <file_name>
 
-# git commit log message
+# git commit to local repository
 git commit -m "Log Message"
 
 ## show commit log
 git log
 git log --oneline 
 git log --graph
+
+
