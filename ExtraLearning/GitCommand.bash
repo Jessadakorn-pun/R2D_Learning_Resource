@@ -31,4 +31,6 @@ git log
 git log --oneline 
 git log --graph
 
-
+# Find Different between Version
+git diff <commit_id>
+git diff <commit_id> <commit_id>
