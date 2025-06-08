@@ -38,3 +38,27 @@ git diff <commit_id> <commit_id>
 # ยกเลิกการเเก้ไขไฟล์
 git checkout <file_name>
 
+# remove file from staging area
+git reset <file_name>
+
+# Show detail change in master branch
+git show HEAD
+
+# Reset to previous version : git reset --option <commit_id>
+## soft : ลบ commit ทั้งหมดที่อยู่หลัง commit id เเล้วเอาไฟล์กลับ staging area
+## mixed : ลบ commit ทั้งหมดที่อยู่หลัง commit id เเล้วเอาไฟล์กลับ working directory
+## hard : ลบ commit ทั้งหมดที่อยู่หลัง commit id เเล้วลบไฟล์ออก
+
+git reset --hard 58356ae
+
+# Display branch
+git branch
+
+# การสลับเเละสร้าง branch
+git checkout -b <branch_name>
+
+# สลับไป branch หลัก
+git checkout master
+
+# การรวม branch
+git merge <branch_name>
