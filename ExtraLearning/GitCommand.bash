@@ -59,6 +59,11 @@ git checkout -b <branch_name>
 
 # สลับไป branch หลัก
 git checkout master
+git checkout <branch_name>
 
 # การรวม branch
 git merge <branch_name>
+
+# remove branch
+git branch -d <branch_name>
+
