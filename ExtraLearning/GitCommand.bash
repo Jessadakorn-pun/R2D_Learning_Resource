@@ -67,3 +67,13 @@ git merge <branch_name>
 # remove branch
 git branch -d <branch_name>
 
+# Git Push Repo to GitHub
+git branch -M main
+git remote add origin https://github.com/Jessadakorn-pun/R2D_Learning_Resource.git
+git push -u origin main
+
+# Pull latest changes from remote repository
+git pull 
+
+# Clone a remote repository
+git clone <repo_url>
